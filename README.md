@@ -9,17 +9,17 @@ Desenvolver um aplicativo em React Native para a aplicação BlogPosts. A aplica
 ## [](<[https://github.com/Gabriel-Monteiro7/BlogPost](https://github.com/Gabriel-Monteiro7/BlogPost)#Visualização>)Visualização
 
 ### Prévia
-![preview](https://github.com/Gabriel-Monteiro7/AccountManagement/blob/master/.github/preview.gif)
+![preview](https://github.com/Gabriel-Monteiro7/BlogPost/blob/master/.github/preview.gif)
 
 ---
 
 ### Formulário
-![Home](https://github.com/Gabriel-Monteiro7/AccountManagement/blob/master/.github/formulario.jpeg)
+![Form](https://github.com/Gabriel-Monteiro7/BlogPost/blob/master/.github/formulario.jpeg)
 
 ---
 
 ### Mensagem padrão
-![SearchPoints](https://github.com/Gabriel-Monteiro7/AccountManagement/blob/master/.github/messageDefault.jpeg)
+![Message](https://github.com/Gabriel-Monteiro7/BlogPost/blob/master/.github/messageDefault.jpeg)
 
 ---
 
