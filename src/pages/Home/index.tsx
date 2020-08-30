@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {
   Container,
   SearchPost,
-  NoProducts,
+  NoPosts,
   ContainerList,
   ContainerSearch,
   IconSearch,
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           </>
         )}
         ListEmptyComponent={() => (
-          <NoProducts>Não existe produtos cadastrados</NoProducts>
+          <NoPosts>Não existe posts cadastrados</NoPosts>
         )}
         showsVerticalScrollIndicator={false}
       />

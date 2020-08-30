@@ -22,15 +22,6 @@ interface IModal {
 import {deleteRequest} from '~/store/modules/post/actions';
 const Input: React.FC<IModal> = ({visible, setModal, deletePost}: any) => {
   const [endModal, setEndModal] = useState(false);
-  useEffect(() => {
-    if (endModal) {
-      setTimeout(() => {
-        setModal(false);
-        setEndModal(false);
-      }, 1000);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [endModal]);
   const dispatch = useDispatch();
 
   return (
@@ -41,6 +32,17 @@ const Input: React.FC<IModal> = ({visible, setModal, deletePost}: any) => {
             <Title>{`Post ${
               deletePost ? 'removido' : 'adicionado'
             } com sucesso!`}</Title>
+            <ContainerButton>
+              <TextButton />
+              <ButtonDefault
+                default={true}
+                onPress={() => {
+                  setModal(false);
+                  setEndModal(false);
+                }}>
+                <TextButton>Ok</TextButton>
+              </ButtonDefault>
+            </ContainerButton>
           </Content>
         ) : (
           <Content>

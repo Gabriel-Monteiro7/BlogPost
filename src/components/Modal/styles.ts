@@ -26,11 +26,11 @@ export const Title = styled.Text`
 export const TextButton = styled.Text`
   color: #ffffff;
 `;
-export const ButtonDefault = styled.TouchableOpacity`
+export const ButtonDefault = styled.TouchableOpacity<{default?: boolean}>`
   border: 1px solid #e78444;
   background: #e78444;
   height: 42px;
-  width: 130px;
+  min-width: ${(props) => (props.default ? '60' : '130')}px;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
@@ -40,6 +40,7 @@ export const TextButtonCancel = styled.Text`
 `;
 export const ButtonCancel = styled(ButtonDefault)`
   background: #ffffff;
+  width: 130px;
 `;
 export const ContainerButton = styled.View`
   flex-direction: row;

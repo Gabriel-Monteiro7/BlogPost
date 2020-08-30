@@ -5,7 +5,7 @@ import Input from '~/components/Input';
 export const Container = styled.View`
   justify-content: space-between;
   flex: 1;
-  background: #f39c12;
+  background: #ef8a52;
   padding: 30px;
 `;
 export const ContainerList = styled(FlatList)`
@@ -24,11 +24,11 @@ export const IconSearch = styled(Icon).attrs({name: 'search'})`
   top: 10px;
 `;
 
-export const NoProducts = styled.Text`
+export const NoPosts = styled.Text`
   font-weight: bold;
   font-size: 18px;
   margin: auto;
-  color: #c3c3c3d9;
+  color: #ffffff;
 `;
 
 export const ContainerButtonAdd = styled.TouchableOpacity`
