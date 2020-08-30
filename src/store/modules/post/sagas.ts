@@ -19,9 +19,7 @@ function* deletePost({payload}: any) {
     yield call(api.delete, `/posts/${id}`);
     yield put(deleteSuccess(id));
     // toast.success(`Sucesso no cadastro`);
-    // history.back();
   } catch (erro) {
-    // console.log(erro);
     // toast.error('Erro na autenticação');
   }
 }
@@ -34,9 +32,7 @@ function* getPosts({payload}: any) {
     yield call(api.delete, `/posts?${title}`);
     yield put(deleteSuccess(title));
     // toast.success(`Sucesso no cadastro`);
-    // history.back();
   } catch (erro) {
-    // console.log(erro);
     // toast.error('Erro na autenticação');
   }
 }

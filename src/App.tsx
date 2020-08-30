@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-        <StatusBar barStyle="dark-content" />
+        <StatusBar barStyle="light-content" />
         <NativeRouter>
           <BackButton />
           <Routes />
